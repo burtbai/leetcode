@@ -4,7 +4,7 @@ import java.util.Comparator;
 import java.util.PriorityQueue;
 
 /**
- * https://leetcode.cn/problems/merge-k-sorted-lists/
+ * @see <a href="https://leetcode.cn/problems/merge-k-sorted-lists/">LeetCode URL</a><p>
  * 23. 合并K个升序链表
  * 给你一个链表数组，每个链表都已经按升序排列。
  * <p>

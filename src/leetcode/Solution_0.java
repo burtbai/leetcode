@@ -3,7 +3,7 @@ package leetcode;
 import java.util.Arrays;
 
 /**
- * https://leetcode.cn/problems/xx/
+ * @see <a href="https://leetcode.cn/problems/xx/">LeetCode URL</a><p>
  * 0. yy
  * zz
  */

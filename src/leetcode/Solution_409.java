@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * https://leetcode.cn/problems/longest-palindrome/
+ * @see <a href="https://leetcode.cn/problems/longest-palindrome/">LeetCode URL</a><p>
  * 409. 最长回文串
  * 给定一个包含大写字母和小写字母的字符串 s ，返回 通过这些字母构造成的 最长的回文串 。
  * <p>
