@@ -102,8 +102,49 @@ class Solution_831 {
         }
     }
 
-    public static void main(String[] args) {
 
+
+        public static int determinant(int[][] matrix) {
+            if (matrix.length == 1) {
+                return matrix[0][0];
+            }
+            int flag = 1;
+            int sum = 0;
+            for (int i = 0; i < matrix.length; i++) {
+                int[][] temp = new int[matrix.length-1][matrix.length-1];
+                for (int j = 1; j < matrix.length; j++) {
+                    for (int k = 0; k < matrix.length; k++) {
+                        if (k != i) {
+                            int tk = k;
+                            if (k > i) {
+                                tk = tk - 1;
+                            }
+                            temp[j-1][tk] = matrix[j-1][k];
+                        }
+                    }
+                }
+
+                sum += flag * matrix[0][i] * determinant(temp);
+                flag = -flag;
+            }
+            return sum;
+        }
+
+    public static void main(String[] args) {
+        int[][][] matrix = { {{1}},
+                {{1, 3}, {2,5}},
+                {{2,5,3}, {1,-2,-1}, {1, 3, 4}}};
+
+        int[] expected = {1, -1, -20};
+
+        String[] msg = {"Determinant of a 1 x 1 matrix yields the value of the one element",
+                "Should return 1 * 5 - 3 * 2 == -1 ",
+                ""};
+
+
+            for (int n = 0 ; n < expected.length ; n++)
+
+                System.out.printf("%d %d\n", expected[n], Solution_831.determinant(matrix[n]));
     }
 }
 
