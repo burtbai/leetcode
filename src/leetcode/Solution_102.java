@@ -30,24 +30,6 @@ import java.util.List;
  * 树中节点数目在范围 [0, 2000] 内
  * -1000 <= Node.val <= 1000
  */
-class TreeNode {
-    int val;
-    TreeNode left;
-    TreeNode right;
-
-    TreeNode() {
-    }
-
-    TreeNode(int val) {
-        this.val = val;
-    }
-
-    TreeNode(int val, TreeNode left, TreeNode right) {
-        this.val = val;
-        this.left = left;
-        this.right = right;
-    }
-}
 
 class Solution_102 {
     public List<List<Integer>> levelOrder(TreeNode root) {
