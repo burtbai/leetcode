@@ -1,5 +1,7 @@
 package leetcode;
 
+import utils.ListNode;
+
 /**
  * @see <a href="https://leetcode.cn/problems/middle-of-the-linked-list/">LeetCode URL</a><p>
  * 876. 链表的中间结点
@@ -29,23 +31,6 @@ package leetcode;
  * 1 <= Node.val <= 100
  */
 class Solution_876 {
-
-    public class ListNode {
-        int val;
-        ListNode next;
-
-        ListNode() {
-        }
-
-        ListNode(int val) {
-            this.val = val;
-        }
-
-        ListNode(int val, ListNode next) {
-            this.val = val;
-            this.next = next;
-        }
-    }
 
     public ListNode middleNode(ListNode head) {
         ListNode fast = head;

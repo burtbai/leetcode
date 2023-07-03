@@ -2,6 +2,7 @@ package leetcode;
 
 import java.util.Comparator;
 import java.util.PriorityQueue;
+import utils.ListNode;
 
 /**
  * @see <a href="https://leetcode.cn/problems/merge-k-sorted-lists/">LeetCode URL</a><p>
@@ -43,23 +44,6 @@ import java.util.PriorityQueue;
  * lists[i] 按 升序 排列
  * lists[i].length 的总和不超过 10^4
  */
-
-class ListNode {
-    int val;
-    ListNode next;
-
-    ListNode() {
-    }
-
-    ListNode(int val) {
-        this.val = val;
-    }
-
-    ListNode(int val, ListNode next) {
-        this.val = val;
-        this.next = next;
-    }
-}
 
 public class Solution_23 {
 

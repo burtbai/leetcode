@@ -1,5 +1,7 @@
 package leetcode;
 
+import utils.TreeNode;
+
 /**
  * @see <a href="https://leetcode.cn/problems/validate-binary-search-tree/">LeetCode URL</a><p>
  * 98. 验证二叉搜索树

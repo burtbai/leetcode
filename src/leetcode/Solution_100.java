@@ -1,5 +1,7 @@
 package leetcode;
 
+import utils.TreeNode;
+
 /**
  * @see <a href="https://leetcode.cn/problems/same-tree/">LeetCode URL</a><p>
  * 100. 相同的树

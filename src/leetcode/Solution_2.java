@@ -1,5 +1,7 @@
 package leetcode;
 
+import utils.ListNode;
+
 /**
  * @see <a href="https://leetcode.cn/problems/add-two-numbers/">LeetCode URL</a><p>
  * 2. 两数相加
