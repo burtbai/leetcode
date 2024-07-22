@@ -1,6 +1,5 @@
 package test;
 
-import java.io.*;
 import java.util.*;
 
 class Solution {

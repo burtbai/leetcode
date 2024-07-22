@@ -1,7 +1,5 @@
 package leetcode;
 
-import java.util.Arrays;
-
 /**
  * @see <a href="https://leetcode.cn/problems/add-strings/">LeetCode URL</a><p>
  * 0415. 字符串相加

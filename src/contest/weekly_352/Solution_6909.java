@@ -1,7 +1,5 @@
 package contest.weekly_352;
 
-import java.util.List;
-
 /**
  * @see <a href="https://leetcode.cn/problems/longest-even-odd-subarray-with-threshold/">LeetCode URL</a><p>
  * 6909. 最长奇偶子数组

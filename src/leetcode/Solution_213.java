@@ -1,7 +1,5 @@
 package leetcode;
 
-import java.util.Arrays;
-
 /**
  * @see <a href="https://leetcode.cn/problems/house-robber-ii/">LeetCode URL</a><p>
  * 213. 打家劫舍 II

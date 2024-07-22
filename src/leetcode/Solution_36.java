@@ -1,8 +1,5 @@
 package leetcode;
 
-import java.util.HashSet;
-import java.util.Set;
-
 /**
  * @see <a href="https://leetcode.cn/problems/valid-sudoku/">LeetCode URL</a><p>
  * 36. 有效的数独
